@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+ .container .navbars{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 106, 171);
+ }
+ .container .navbars a{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+ }
+ .forms h1{
+   display: inline;
+   background-color: blue;
+   color: aliceblue;
+   box-shadow: 10px 10px 10px pink;
+   margin-top: 10px;
+ }
+ .forms .form-section h2{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-size: 30px;
+ }
+ .forms{
+margin-top: 6px;
+margin-left: 10px;
+width: 100vh;
+    height: 100vh;
+ }
+.forms .content{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 4%;
+   box-shadow: 10px 10px 10px 10px black;
+}
+.forms .form-area{
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+}
+.forms .form-length{
+   display: flex;
+   width: 40%;
+   flex-direction: column;
+}
+.forms .form-text{
+   display: flex;
+   width: 40%;
+   flex-direction: column;
+}
+.forms .form-select{
+   display: flex;
+   width: 40%;
+   flex-direction: column;
+}
+.forms .click{
+  background-color: palevioletred;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  width: 90%;
+  height: 40px;
+}
