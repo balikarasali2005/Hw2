@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+      .services-drop{
+            position: relative;
+            display: inline-block;
+        }
+        .services-button{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-size: 25px;
+            border: none;
+        }
+        .services-content{
+            display: none;
+            position: absolute;
+            width: 300px;
+        }
+        .services-content a{
+            background-color: black;
+            text-decoration: none;
+            display: block;
+            padding: 20px;
+        }
+        .services-content a:hover{
+            background-color:rgb(75, 67, 67);
+            
+        }
+        .services-drop:hover .services-content{
+            display: block;
+        }
+        .services-button:hover{
+            color: orange;
+        }
+
+  .nav-bars{
+    height: 20%;
+    padding: 10px;
+    background-color:black;
+    position:sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+  }      
+  .nav-bars header{
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 4px;
+    margin-top: 10px;
+  }
+  .content1{
+margin-right: 200px;
+position: relative;
+  }
+  .nav-bars .content1 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 4px;
+  }
+  .content1 form input{
+    border-radius: 20px;
+    height: 50px;
+    padding: 1%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    margin-bottom: 10px;
+    margin-left: 4px;
+  }
+  .about h1{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+ .about  p{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .photos-card{
+    display: inline-block;
+    width:30%;
+    margin-left: 40px;
+  }
+  .photos-card img{
+    width: 100%;
+    max-height: 300px;
+    border-radius: 200px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px 4px royalblue;
+  }
+  .photos-card h4{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+}
+.photos-card p{
+    text-align: center;
+    margin-left: 10px;
+}
+ header{
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size:30px;
+    font-weight: bold;
+  }
+  .area header{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-bottom:19px ;
+  }
+  .items{
+    border: 2px solid orange;
+   margin-left: 10px;
+   padding: 2%;
+  }
+  .area .items h1{
+    font-size: 30px;
+ margin-left: 10px;
+  }
+  .area.about  .items p{
+    font-size: 20px;
+ margin-left: 10px;
+  }
+  
