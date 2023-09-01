@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./logo.PNG" alt="" class="w-25 h-25"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-5 fw-bold" aria-current="page" href="#home">Home</a>
+              </li>
+           
+              <li class="nav-item">
+                <a class="nav-link active  fs-5 fw-bold" aria-current="page" href="#about">About</a>
+              </li>
+
+              <li class="nav-item  fs-5 fw-bold">
+                <a class="nav-link active" aria-current="page" href="#contact"> ContactUS</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- carousel start -->
+<section>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.pexels.com/photos/12761588/pexels-photo-12761588.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-block">
+            <h4>First Slide </h4>
+            <p>WellCome To The Bootstrap Carousel...</p>
+            <button class="btn btn-outline-warning text-light p-2 fs-4">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/9559884/pexels-photo-9559884.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-block">
+            <h4>Second Slide </h4>
+            <p>WellCome To The Bootstrap Carousel...</p>
+            <button class="btn btn-outline-warning text-light p-2 fs-4">Learn More</button>
+        </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.pexels.com/photos/10899933/pexels-photo-10899933.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-block">
+            <h4>Third Slide </h4>
+            <p>WellCome To The Bootstrap Carousel...</p>
+            <button class="btn btn-outline-warning text-light p-2 fs-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+ <!-- carousel end -->
+
+<!-- home start -->
+<section class="home" id="home">
+    <div class="card-header mb-5 mt-5">
+        <h3>Details About Photos</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate blanditiis molestias consequuntur id magni ut adipisci minus iusto neque!</p>
+        </div>
+    <div class="d-flex flex-wrap justify-content-evenly gap-5 bg-light p-5">
+        <div class="card w-25 ">
+            <div class="card-header">
+                <img src="https://images.pexels.com/photos/13203904/pexels-photo-13203904.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" class="card-img-top" height="200">
+            </div>
+                <div class="card-body">
+                    <h1>Photo</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempora ipsum aut!</p>
+                    <div class="card-footer">
+                        <button class="btn btn-outline-primary">Submit</button>
+                        <button class="btn btn-outline-danger">Delete</button>
+                    </div>
+                </div>
+        </div>
+    
+    
+    <div class="card w-25">
+        <div class="card-header">
+            <img src="https://images.pexels.com/photos/17813828/pexels-photo-17813828/free-photo-of-young-girl-reading-a-book-at-a-picnic-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" class="card-img-top" height="200">
+        </div>
+            <div class="card-body">
+                <h1>Photo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempora ipsum aut!</p>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+    </div>
+    
+    <div class="card w-25">
+        <div class="card-header">
+            <img src="https://images.pexels.com/photos/2385044/pexels-photo-2385044.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" class="card-img-top" height="200">
+        </div>
+            <div class="card-body">
+                <h1>Photo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempora ipsum aut!</p>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+    </div>
+    
+    <div class="card w-25">
+        <div class="card-header">
+            <img src="https://images.pexels.com/photos/12286255/pexels-photo-12286255.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" class="card-img-top" height="200">
+        </div>
+            <div class="card-body">
+                <h1>Photo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempora ipsum aut!</p>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+    </div>
+    
+    <div class="card w-25">
+        <div class="card-header">
+            <img src="https://images.pexels.com/photos/17038053/pexels-photo-17038053/free-photo-of-koala-sleeping-on-a-tree.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" class="card-img-top" height="200">
+        </div>
+            <div class="card-body">
+                <h1>Photo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempora ipsum aut!</p>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+    </div>
+    <div class="card w-25">
+        <div class="card-header">
+            <img src="https://images.pexels.com/photos/18071155/pexels-photo-18071155/free-photo-of-goat-on-rocky-mountainside.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" class="card-img-top" height="200">
+        </div>
+            <div class="card-body">
+                <h1>Photo</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto tempora ipsum aut!</p>
+                <div class="card-footer">
+                    <button class="btn btn-outline-primary">Submit</button>
+                    <button class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+<!-- home end -->
+
+<!-- about start  -->
+<section class="about mt-5" id="about">
+    <div class="container ">
+    <h2 class="text-center text-info mt-5">About Me</h2>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 mb-5 ">
+            <div class="about-image">
+                <img class="img-fluid " src="https://images.pexels.com/photos/8768222/pexels-photo-8768222.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+            </div>
+             </div>
+            <div class="col-lg-8 col-md-6 col-12 mt-sm-0 mt-4 ">
+                <div class="about-text">
+                    <h2>Hi I'm Balika Rasali.</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis omnis reiciendis in porro error veniam ut aperiam distinctio. Quam ea temporibus autem, odit voluptatum doloribus quisquam omnis laborum ullam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis omnis reiciendis in porro error veniam ut aperiam distinctio. Quam ea temporibus autem, odit voluptatum doloribus quisquam omnis laborum ullam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis omnis reiciendis in porro error veniam ut aperiam distinctio. Quam ea temporibus autem, odit voluptatum doloribus quisquam omnis laborum ullam!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis omnis reiciendis in porro error veniam ut aperiam distinctio. Quam ea temporibus autem, odit voluptatum doloribus quisquam omnis laborum ullam!</p>
+
+                    <a href="" class="btn btn-outline-success">Learn More</a>
+                </div>
+            </div>
+       
+    </div>
+    </div>
+</section>
+<!-- about end -->
+
+<!-- contact start -->
+<section class="contact m-auto mt-5 mb-5 p-5 bg-dark" id="contact">
+   <form action="">
+    <h3 class=" ms-5 mt-5 text-light">LoginForm/ContactUs</h3>
+    <hr>
+    <div class="row w-75 h-75 m-auto mt-5">
+        <div class="col-6">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+            <label for="floatingInput">First Name:</label>
+          </div>
+        </div>
+          <div class="col-6">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+            <label for="floatingInput">Last Name:</label>
+          </div>
+        </div>
+
+    <div class="col-6">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email:</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-floating">
+              <input type="number" class="form-control" id="floatingPassword" placeholder="PhoneNumber"
+              pattern="+[9][7][7]-[9-1]{10s}">
+              <label for="floatingPassword">PhoneNumber:</label>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="address">
+              <label for="floatingPassword">Address</label>
+            </div>
+          </div>
+       
+          <div class="col-6 mt-3">
+            <div class="form-floating">
+              <input type="date" class="form-control" id="floatingPassword" placeholder="dateofbirth">
+              <label for="floatingPassword">DateOfBirth
+              </label>
+            </div>
+          </div>
+          <div class="col-6 mt-3">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="country">
+              <label for="floatingPassword">Country</label>
+            </div>
+          </div>
+
+          <div class="col-12 mt-3">
+            <div class="form-floating">
+              <textarea type="text" class="form-control" id="floatingPassword" placeholder="Description" ></textarea>
+              <label for="floatingPassword">Massage</label>
+            </div>
+          </div>
+        <button class="btn btn-outline-primary w-25 mt-5 m-auto fs-4 text-light fw-bold">Submit</button>
+    </div>
+   
+   </form>
+
+</section>
+<!-- contact end -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

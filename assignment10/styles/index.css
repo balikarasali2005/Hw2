@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.carousel-item{
+    height: 100vh;
+  }
+ .carousel-caption{
+  bottom: 350px;
+  z-index: 2;
+}
+.carousel-caption h4{
+  font-size: 64px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:white;
+}
+.carousel-caption p{
+  font-size: 19px;
+}
+.carousel-inner:before{
+  z-index: 1;
+  margin-top: 40%;
+}
+.home .card-header h3{
+margin-left: 45%
+}
+.home .card-header p{
+    margin-left: 20%
+}
+ .card{
+    width:30%;
+    padding: 1%;
+    border-radius: 25px;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px 10px paleturquoise;
+ }
+  .card:hover{
+    transform: translatey(-25px);
+ }
+ .contact{
+  width: 80%;
+  height: 100%;
+  border: 1px solid powderblue;
+ }
+hr{
+  color: white;
+}
