@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+
+
+ function checkPrime(num,massage){
+  let isPrime = true;
+  for(let j = 2; j < num / 2; j++){
+    if(num%j === 0){
+      isPrime=false;
+      break;
+    }
+  }
+  if(isPrime){
+    console.log(num + ' is ' + massage + " and is prime");
+  }else{
+    console.log(num+ ' is ' + massage + " and is not prime");
+  }
+}
+  function oddEven(num){
+    if(num%2 === 0){
+      checkPrime(num, 'even');
+    }else{
+      checkPrime(num,'odd')
+    }
+  }
+  const str = prompt("enter a number");
+  const num = Number(str);
+  for(let i=5; i<=num-5;i++){
+    if(i % 5===0){
+      oddEven(i);
+    }
+  }
+  </script>
+</body>
+</html>
