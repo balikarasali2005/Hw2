@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javacript</title>
+</head>
+<body>
+    <script>
+    const array = [
+    {
+      id: 1,
+      productName: "Phone",
+      description: "loremloremlorem",
+      price: 1000,
+      currency: "USD",
+      address: {
+        city: "Washington",
+        postalCode: 2000,
+      },
+      discountPercent: 20,
+      rating: 3,
+    },
+    {
+      id: 2,
+      productName: "Phone2",
+      description: "loremloremlorem",
+      price: 10000,
+      currency: "MXN",
+      address: {
+        city: "Mexico",
+        postalCode: 3000,
+      },
+      discountPercent: 30,
+      rating: 4,
+    },
+    {
+      id: 3,
+      productName: "Phone3",
+      description: "loremloremlorem",
+      price: 15000,
+      currency: "NPR",
+      address: {
+        city: "Kathmandu",
+        postalCode: 44600,
+      },
+      discountPercent: 70,
+      rating: 1,
+    },
+    {
+      id: 4,
+      productName: "Phone4",
+      description: "loremloremlorem",
+      price: 1000,
+      currency: "MXN",
+      address: {
+        city: "Mexico",
+        postalCode: 1000,
+      },
+      discountPercent: 20,
+      rating: 2,
+    },
+    {
+      id: 5,
+      productName: "Phone5",
+      description: "loremloremlorem",
+      price: 50000,
+      currency: "NPR",
+      address: {
+        city: "Pokhara",
+        postalCode: 10000,
+      },
+      discountPercent: 245,
+      rating: 4,
+    },
+    {
+      id: 6,
+      productName: "Phone6",
+      description: "loremloremlorem",
+      price: 1000,
+      currency: "USD",
+      address: {
+        city: "Washington",
+        postalCode: 1000,
+      },
+      discountPercent: 65,
+      rating: 4.6,
+    },
+  ];
+
+// find products whose price is greater than 10000
+const data = array.filter((items,i)=>{
+    if(items.price > 10000){
+        return true;
+    }
+});
+console.log("data",data);
+
+// find the products whose city is kathmandu.
+const data1 = array.filter((items,i)=>{
+    if(items.address.city === 'Kathmandu'){
+        return items;
+    }
+});
+console.log("data1",data1);
+
+// find the products whose rating less than 3.
+const data2 = array.map(function(items,i){
+   if( items.rating < 3){
+    return items;
+   }else{
+    return "given rating is greater than 3"
+   }
+})
+console.log("data2",data2);
+
+// find the products  whose discount percent is greater than 50 (filter method)
+ const data3= array.filter((items,i)=>{
+    if(items.discountPercent > 50){
+        return items;
+    }
+});
+console.log("data3",data3);
+
+// Return object of name and address using map method: [{name:'iphone',address:"kathmandu'}, {name:'iphone2',address:"Washington'}, {name:'iphone2', address:"Mexico'}]
+const data4 = array.map(function(items, i){
+    return {
+        Name:items.productName,
+        address:items.address.city
+      }
+});
+console.log("data4",data4);
+</script>
+</body>
+</html>
