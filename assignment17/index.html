@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+        // Return users whose hair color = black
+        fetch("https://dummyjson.com/users").then((value)=>{
+            return value.json();
+        }).then((value)=>{
+            console.log(value);
+            const filterHairColor = value.users.filter((item)=>{
+                return item.hair.color === "Black";
+            });
+            console.log(filterHairColor);
+        });
+    </script>
+</body>
+</html>
