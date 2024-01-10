@@ -61,10 +61,9 @@ width: 100vh;
 .forms .form-select{
    display: flex;
    width: 40%;
-   flex-direction: column;
-}
+   flex-direction: column;}
 .forms .click{
-  background-color: palevioletred;
+ background-color: palevioletred;
   border: none;
   border-radius: 25px;
   color: white;
